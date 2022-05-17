@@ -1,0 +1,22 @@
+body{
+	background-color: #000000;
+}
+h1{
+	color: #ffffff;
+}
+form {
+	text-align: center;
+	color: #ffffff;
+	margin: 0 auto;
+	width: 400px;
+	padding: 1em;
+	border: 1px solid #ffffff;
+	border-radius: 1em;
+}
+.entrada {
+	border-radius: 1em;
+}
+input.entrada {
+	width: 10em;
+	height: 1em;
+}
