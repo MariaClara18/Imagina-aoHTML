@@ -4,23 +4,20 @@
 <head>
     <meta charset="utf-8" />
     <title>Formularios</title>
-    <link rel="stylesheet" type="text/css" href="formulario.css" />
+    <link rel="stylesheet" type="text/css" href="css/formulario.css" />
 </head>
 <body>
-    <p align="center">
-        <font face="times arial">
-            <font color="#FFFFFF">
-                <a href="index.html"><font size="4"> Home</font></a> ||
-                <a href="MulheresNaTI.html"><font size="4"> Mulheres na aréa da TI</font></a> ||
-                <a href="Marvel.html"><font size="4"> Marvel </font></a> ||
-                <a href="Imagem.html"> Imagem </a> ||
-                <a href="GitHub.html"> GitHub </a> ||
-                <a href="formulario.html"> Formulario </a> ||
-            </font>
-        </font>
-    </p>
+    <h1>
+        <a href="index.html"><input type="button" value="Home" class="botao"></a>
+        <a href="MulheresNaTI.html"><input type="button" value="Mulheres na aréa da TI" class="botao"></a>
+        <a href="Marvel.html"><input type="button" value="Marvel" class="botao"></a>
+        <a href="Imagem.html"><input type="button" value="Imagem" class="botao"></a>
+        <a href="GitHub.html"><input type="button" value="GitHub" class="botao"></a>
+        <a href="css.html"><input type="button" value="CSS" class="botao"></a>
+        <a href="formulario.html"><input type="button" value="Formulario" class="botao"></a>
+    </h1>
     <hr color="#FFFFFF">
-    <h1 align="center"> Dados pessoais</h1>
+    <h2> Dados pessoais</h2>
     <form method="get" action="envio_dados.php">
         <label for="email">E-mail:</label>
         <input class="entrada" type="email" name="email"><br>
@@ -35,7 +32,7 @@
         <input type="radio" name="idade" value="1"> Sim <br>
         <input type="radio" name="idade" value="2"> Não <br>
 
-        <input type="submit" name="enviar" value="Concluido">
+        <input class="botao-enviar" type="submit" name="enviar" value="Concluido">
     </form>
 </body>
 </html>
